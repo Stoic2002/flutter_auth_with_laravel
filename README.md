@@ -30,8 +30,8 @@ A simple Flutter application demonstrating authentication implementation using t
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-repo/flutter_auth_app.git
-    cd flutter_auth_app
+    git clone https://github.com/Stoic2002/flutter_auth_with_laravel.git
+    cd flutter_auth_with_laravel
     ```
 
 2. **Install dependencies**:
@@ -72,7 +72,3 @@ A simple Flutter application demonstrating authentication implementation using t
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
