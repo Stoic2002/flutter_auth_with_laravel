@@ -1,16 +1,78 @@
-# flutter_auth_with_laravel
+# Flutter Auth App
 
-A new Flutter project.
+A simple Flutter application demonstrating authentication implementation using the BLoC pattern and integration with a Laravel backend.
+
+## Features
+
+- User registration
+- User login
+- User logout
+- Token storage using SharedPreferences
+- State management using the BLoC pattern
+- Integration with a Laravel backend
+
+## Technologies Used
+
+- Flutter
+- `flutter_bloc` for state management
+- `http` for API calls
+- `shared_preferences` for local storage
+- Laravel (backend)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- A running instance of the Laravel backend with authentication routes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/your-repo/flutter_auth_app.git
+    cd flutter_auth_app
+    ```
+
+2. **Install dependencies**:
+    ```sh
+    flutter pub get
+    ```
+
+3. **Set up Laravel backend**:
+    Follow the instructions in the Laravel backend repository to set up and run the server.
+
+4. **Configure API URL**:
+    Update the API URL in the Flutter app to point to your Laravel backend.
+
+### Running the App
+
+1. **Run on a device or emulator**:
+    ```sh
+    flutter run
+    ```
+
+## Usage
+
+### Registration
+
+- Open the app and navigate to the registration screen.
+- Enter the required details and submit to register a new user.
+
+### Login
+
+- Open the app and navigate to the login screen.
+- Enter your credentials and submit to log in.
+- Upon successful login, a token will be stored locally using SharedPreferences.
+
+### Logout
+
+- Use the logout option to clear the stored token and log out the user.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
